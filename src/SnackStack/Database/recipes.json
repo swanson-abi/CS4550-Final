@@ -1,0 +1,73 @@
+[
+    {
+      "_id": "R101",
+      "name": "Classic Margherita Pizza",
+      "description": "A simple and delicious pizza with fresh basil, mozzarella, and tomatoes.",
+      "difficulty_level": "Medium",
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "_id": "R102",
+      "name": "Spaghetti Carbonara",
+      "description": "A creamy pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "difficulty_level": "Medium",
+      "allergens": ["Gluten", "Dairy", "Eggs"]
+    },
+    {
+      "_id": "R103",
+      "name": "Vegetarian Tacos",
+      "description": "Tasty tacos filled with seasoned vegetables, black beans, and fresh salsa.",
+      "difficulty_level": "Easy",
+      "allergens": ["Gluten"]
+    },
+    {
+      "_id": "R104",
+      "name": "Chicken Alfredo",
+      "description": "A creamy, cheesy pasta dish with grilled chicken and fettuccine noodles.",
+      "difficulty_level": "Medium",
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "_id": "R105",
+      "name": "Beef Stir-Fry",
+      "description": "Quick stir-fried beef with colorful vegetables in a savory sauce.",
+      "difficulty_level": "Easy",
+      "allergens": ["Soy"]
+    },
+    {
+      "_id": "R106",
+      "name": "Classic Caesar Salad",
+      "description": "Crisp romaine lettuce, creamy Caesar dressing, croutons, and parmesan cheese.",
+      "difficulty_level": "Easy",
+      "allergens": ["Gluten", "Dairy", "Eggs"]
+    },
+    {
+      "_id": "R107",
+      "name": "Chocolate Chip Cookies",
+      "description": "Classic cookies with gooey chocolate chips and a soft, chewy texture.",
+      "difficulty_level": "Easy",
+      "allergens": ["Gluten", "Dairy", "Eggs"]
+    },
+    {
+      "_id": "R108",
+      "name": "Lentil Soup",
+      "description": "A hearty and healthy soup made with lentils, vegetables, and spices.",
+      "difficulty_level": "Medium",
+      "allergens": ["None"]
+    },
+    {
+      "_id": "R109",
+      "name": "Apple Pie",
+      "description": "A sweet, cinnamon-spiced apple filling in a flaky pie crust.",
+      "difficulty_level": "Medium",
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "_id": "R110",
+      "name": "BBQ Ribs",
+      "description": "Tender, slow-cooked ribs coated in smoky barbecue sauce.",
+      "difficulty_level": "Medium",
+      "allergens": ["Soy", "Gluten"]
+    }
+  ]
+  
