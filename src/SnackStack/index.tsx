@@ -1,6 +1,6 @@
 import { Route, Routes, Navigate } from "react-router";
 import Account from "./Account";
-
+import "./styles.css"
 import SnackStackNavigation from "./navigation";
 import Dashboard from "./Dashboard";
 import CookBooks from "./CookBooks";

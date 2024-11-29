@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import "./account-style.css";
 import { useSelector } from "react-redux";
 import { useLocation } from "react-router-dom";
+import Signin from "./signin";
+import Signup from "./signup";
+import Profile from "./profile";
 
 export default function AccountNavigation() {
   const { currentUser } = useSelector((state: any) => state.accountReducer);
@@ -9,8 +12,8 @@ export default function AccountNavigation() {
   const { pathname } = useLocation();
   return (
     <div id="wd-account-navigation">
-      <Link to={`/SnackStack/Account/Signin`}> Signin </Link> <br />
-      <Link to={`/SnackStack/Account/Signup`}> Signup </Link> <br />
+      <Link to={`/SnackStack/Account/Signin`}> Sign in </Link> <br />
+      <Link to={`/SnackStack/Account/Signup`}> Sign up </Link> <br />
       <Link to={`/SnackStack/Account/Profile`}> Profile </Link> <br />
     </div>
   );

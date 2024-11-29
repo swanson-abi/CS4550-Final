@@ -9,7 +9,7 @@ export default function SnackStackNavigation() {
     const { pathname } = useLocation();
     const links = [
         { label: "Dashboard", path: "/SnackStack/Dashboard", icon: AiOutlineDashboard },
-        { label: "Courses", path: "/SnackStack/Dashboard", icon: LiaBookSolid },
+        { label: "CookBooks", path: "/SnackStack/CookBooks", icon: LiaBookSolid },
         { label: "Calendar", path: "/SnackStack/Calendar", icon: IoCalendarOutline },
         { label: "Inbox", path: "/SnackStack/Inbox", icon: FaInbox },
     ];

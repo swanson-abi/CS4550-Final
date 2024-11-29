@@ -10,8 +10,9 @@ export default function Signup() {
   const signup = async () => {
     const currentUser = await client.signup(user);
     dispatch(setCurrentUser(currentUser));
-    navigate("/Kanbas/Account/Profile");
+    navigate("/SnackStack/Account/Profile");
   };
+  
   return (
     <div className="wd-signup-screen">
       <h1>Sign up</h1>
@@ -20,6 +21,6 @@ export default function Signup() {
       <input value={user.password} onChange={(e) => setUser({ ...user, password: e.target.value })} type="password"
              className="wd-password form-control mb-2" placeholder="password" />
       <button onClick={signup} className="wd-signup-btn btn btn-primary mb-2 w-100"> Sign up </button><br />
-      <Link to="/Kanbas/Account/Signin" className="wd-signin-link">Sign in</Link>
+      <Link to="/SnackStack/Account/Signin" className="wd-signin-link">Sign in</Link>
     </div>
 );}
