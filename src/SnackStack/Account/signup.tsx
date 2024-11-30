@@ -10,7 +10,7 @@ export default function Signup() {
   const signup = async () => {
     const currentUser = await client.signup(user);
     dispatch(setCurrentUser(currentUser));
-    navigate("/SnackStack/Account/Profile");
+    navigate("/Account/Profile");
   };
   
   return (

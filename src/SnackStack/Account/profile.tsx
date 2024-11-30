@@ -16,13 +16,13 @@ export default function Profile() {
     dispatch(setCurrentUser(updatedProfile));
   };
   const fetchProfile = () => {
-    if (!currentUser) return navigate("/Kanbas/Account/Signin");
+    if (!currentUser) return navigate("/");
     setProfile(currentUser);
   };
   const signout = async () => {
     await client.signout();
     dispatch(setCurrentUser(null));
-    navigate("/Kanbas/Account/Signin");
+    navigate("/Account/Signin");
   };
   useEffect(() => { fetchProfile(); }, []);
   return (
