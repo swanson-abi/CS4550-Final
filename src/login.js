@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./login.css";
 
 const Login = (props) => {
     const [email, setEmail] = useState("");
@@ -105,10 +106,12 @@ const Login = (props) => {
                 value={password}
                 placeholder="Enter password"
                 onChange={(e) => setPassword(e.target.value)}
+                type="password" 
                 className={"inputBox"} />
             <label className="errorLabel">{passwordError}</label>
         </div>
         <br />
+        <text>Choose your role:</text>
         <select onChange={(e) => setProfile({ ...profile, role:  e.target.value })}
                  className="form-control mb-2" id="wd-role">
             <option value="HOMECOOK">Home Cook</option>

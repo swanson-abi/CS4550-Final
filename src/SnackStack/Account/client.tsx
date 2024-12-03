@@ -1,7 +1,7 @@
 import axios from "axios";
 const axiosWithCredentials = axios.create({ withCredentials: true });
-export const findMyCourses = async () => {
-    const { data } = await axiosWithCredentials.get(`${USERS_API}/current/courses`);
+export const findMyCookbooks = async () => {
+    const { data } = await axiosWithCredentials.get(`${USERS_API}/current/cookbooks`);
     return data;
 };
 export const REMOTE_SERVER = process.env.REACT_APP_REMOTE_SERVER;
@@ -27,8 +27,8 @@ export const signout = async () => {
     const response = await axiosWithCredentials.post(`${USERS_API}/signout`);
     return response.data;
 };
-export const createCookBook = async (course: any) => {
-    const { data } = await axiosWithCredentials.post(`${USERS_API}/current/courses`, course);
+export const createCookBook = async (cookbook: any) => {
+    const { data } = await axiosWithCredentials.post(`${USERS_API}/current/cookbooks`, cookbook);
     return data;
 };
 
